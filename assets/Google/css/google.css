@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('https://manybackgrounds.com/images/hd/google-sunset-mountains-chrome-theme-fptnw9bzb312e05l.jpg');
+
+}
+nav{
+    width: 100%;
+    height: 55px;
+   
+    position: fixed;
+}
+.center{
+    width: 90%;
+    height: 55px;
+    float: left;
+}
+
+.bold {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: system-ui;
+    margin-top: 20px;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.wrapper{
+    width: 1200px;
+    height: 958px;
+  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    width: 580px;
+    height: 650px;
+ 
+}
+.img {
+    width: 390px;
+    height: 390px;
+    margin-left: 94px;
+
+}
+.box2 {
+    width: 440px;
+    height: 35px;
+    border-radius: 27px;
+   background-color: rgb(255, 255, 255);
+    transform: translateX(70px) translateY(-113px);
+}
+.searchlogo{
+    width: 7%;
+    height: 35px;
+
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 86%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.mike{
+    width: 7%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);       
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    margin-top: 2px;
+    padding-left: 5px;
+   
+}
+.voice{
+    width: 30px;
+    height: 30px;
+}
+.lang{
+    transform: translateX(96px) translateY(-95px) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    
+}
